@@ -5,7 +5,7 @@ authors = ["Kobi Gurkan <kobigurk@gmail.com>", "Michael Straka <mstraka@clabs.co
 edition = "2018"
 
 [dependencies]
-ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves" }
+ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves", rev = "6ed2450b5505de5d451f629bb6642e3977bf66e2" }
 ark-serialize = { git = "https://github.com/arkworks-rs/algebra", features = [ "derive" ] }
 ark-ff = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
 ark-ec = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
