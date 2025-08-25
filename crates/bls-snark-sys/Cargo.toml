@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 bls-crypto = { path = "../bls-crypto", features = ["compat"] }
 epoch-snark = { path = "../epoch-snark", features = ["compat"] }
-ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves" }
+ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves", rev = "6ed2450b5505de5d451f629bb6642e3977bf66e2" }
 ark-ff = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
 ark-serialize = { git = "https://github.com/arkworks-rs/algebra", features = [ "derive" ] }
 ark-ec = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
