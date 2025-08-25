@@ -10,7 +10,7 @@ bls-gadgets = { path = "../bls-gadgets", default-features = false }
 
 ark-ff = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
 ark-ec = { git = "https://github.com/arkworks-rs/algebra", features = [ "std", "parallel"] }
-ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves", features = [ "r1cs" ] }
+ark-bls12-377 = { git = "https://github.com/arkworks-rs/curves", rev = "6ed2450b5505de5d451f629bb6642e3977bf66e2", features = [ "r1cs" ] }
 ark-bw6-761 = { git = "https://github.com/arkworks-rs/curves" }
 ark-ed-on-bw6-761 = { git = "https://github.com/arkworks-rs/curves" }
 ark-ed-on-bls12-377 = { git = "https://github.com/arkworks-rs/curves" }
